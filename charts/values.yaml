@@ -17,6 +17,9 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.0"
 
+spec:
+  type: NodePort
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
